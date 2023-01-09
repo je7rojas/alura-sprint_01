@@ -1,0 +1,257 @@
+
+
+body{
+    /* Template */
+
+
+    /* 1 */
+
+    background: #E5E5E5;
+
+    /* 2 */
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+
+
+    /* Design */
+    
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container{
+
+    /* Encriptador - 1 Desktop*/
+
+    /* 1 */
+
+    width: 1440px;
+    height: 1024px;
+    top: 622px;
+    left: -2277px;
+
+    /* 2 */
+    background: #F3F5FC;
+
+    /* 3 */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    /* 4 */
+
+    /*
+    position: relative;
+    */
+
+    /*
+    border-radius: 0px;
+    */
+
+
+    /* Design */
+    /*
+    margin: auto;
+    padding: 5px;
+    */
+    
+}
+
+.logo{
+
+    border-radius: 0px;
+    
+
+    /* 1 */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+
+
+
+    /* Design */
+
+    /*
+
+    width: 100%;
+    float: left;
+    */
+
+}
+
+
+/*
+.txtlogo{
+
+    float: inherit;
+    margin-left: 20%;
+
+}
+*/
+
+
+.left{
+    
+    /* Template */
+    float:  left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+
+
+    /* Ingrese el texto aqui */
+
+
+    /*
+    position: absolute;
+    */
+    
+    
+    width: 577px;
+    /*
+    height: 48px;
+    */
+
+    left: 240px;
+    top: 168px;
+    
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+
+
+    /* Dark blue/dark-blue-300 */
+
+    color: #0A3871;
+    
+}
+
+.right{
+    /* Template */
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 24px;
+    background: white;
+
+    
+}
+
+
+.left-button{
+
+    /* Template */
+
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+
+}
+
+
+.logoImg{
+
+    /* Template */
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+
+}
+
+
+
+.text-input{
+    /* Template */
+
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #F3F5FC;
+
+
+}
+
+#imgDer{
+    /* Template */
+    margin-left: 2%;
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+
+}
+
+#texto{
+    /* Template */
+    margin-left: 7%;
+    margin-right: 5%;
+}
+
+#texto2{
+    /* Template */
+    float: left;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+#btn-encriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15px;
+    background: #0A3871;
+}
+
+#btn-desencriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15px;
+    background: #D8DFE8;
+}
+
+
+#copiar{
+/* Template */
+
+
+margin-left: 33%;
+margin-top: 90%;
+padding: 24px;
+width: 40%;
+height: 10%;
+background: #D8DFE8;
+border-radius: 24px;
+
+/* visibilidad*/
+display: none;
+
+}
+
+
+
